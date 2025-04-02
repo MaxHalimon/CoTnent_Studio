@@ -1,0 +1,226 @@
+@media (max-width: 1110px) {
+    #semicircule-right {
+    position: absolute;
+    margin: 2.3% auto auto 93.8%;
+  }
+
+  #semicircule-left {
+    position: absolute;
+    margin: 2% auto auto -8%;
+  }
+}
+
+@media (min-width: 920px) {
+  .nav-list li, .intro-button-group button, .services-right p, .spheres-bottom p, .experience-stats-item p, .our-cases-blocks span, .testimonials b, .testimonials p, .footer-copyright p {
+    font-size: 14px;
+  }
+
+  .intro-highlight, .spheres-text-container h2, .experience-h2, .how-we-work-h2, .our-cases-h2, .testimonials h2, .our-clients-h2, .faq h2 {
+    font-size: 30px;
+  }
+
+  .intro-text p, .how-we-work-blocks p, .our-cases-blocks h3, .faq-block p, .footer-blocks-top-contacts-phone p {
+    font-size: 20px;
+  }
+
+  .services-text-container h2, .experience-stats-item span {
+    font-size: 50px;
+  }
+
+  .services-button button, .spheres-button button, .how-we-work-button button, .our-cases-blocks h4, .our-cases-button, .testimonials h3, .footer-blocks-bottom button {
+    font-size: 15px;
+  }
+
+  .testimonials img, .footer-blocks-top-contacts-messengers img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .faq img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto 0;
+  }
+
+  .footer h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .nav-order-btn {
+    display: none; 
+  }
+
+  .intro-button-group {
+    display: none;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  .services-left {
+    flex-direction: row;
+  }
+
+  .services-img-container {
+    padding-bottom: 0;
+  }
+
+  .services-left #QM1 {
+    width: 7vw;
+  }
+
+  .services-left #QM2 {
+    width: 15vw;
+  }
+
+  .services-right p {
+    font-size: 2.3vw;
+  }
+
+  .spheres p {
+    font-size: 2vw;
+  }
+
+  .how-we-work-blocks img {
+    width: 3vw;
+  }
+
+  .faq-block img {
+    max-width: 7vw;
+    max-height: 7vw;
+    margin: auto 0;
+  }
+
+  .carousel-buttons img {
+    max-width: 7vw;
+    max-height: 7vw;
+  }
+
+  .testimonial {
+    font-size: 2.5vw;
+  }
+
+  .our-clients-block {
+    max-width: 25vw;
+    max-height: 15vw;
+    border-radius: 5px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .spheres-bottom {
+    flex-direction: column;
+  }
+  .spheres p {
+    line-height: 1.8;
+  }
+  .spheres-bottom-left {
+    margin-bottom: -1.8em;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .logo-item {
+    height: 5vw;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    height: auto;
+    position: absolute;
+    top:  16vw;
+    right: 7vw;
+    background-color: #f2f2f2;
+    opacity: 90%;
+    border-radius: 5px;
+    position: absolute;
+    padding: 2.5%;
+    font-size: 4.5vw;
+    line-height: 2.3;
+  }
+
+  .nav-list.active a:hover {
+    color: #ffbe5a;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+
+  .intro-left {
+    display: none;
+  }
+
+  .services p, .intro p, .intro-button-group .btn1, .intro-button-group .btn2, .services-button button, .spheres-list p, .spheres-button button, .how-we-work-button button {
+    font-size: 3vw;
+  }
+
+  /*.how-we-work-blocks p {
+    font-size: 2.5vw;
+  }
+
+  .how-we-work-blocks .block-8 {
+    margin-top: 5%;
+    font-size: 2.8vw;
+  }*/
+
+  .how-we-work {
+    display: none;
+  }
+
+  .our-cases-blocks span {
+    font-size: 2.5vw;
+  }
+
+  .our-cases-button {
+    font-size: 3vw;
+  }
+
+  .faq-block img {
+    max-width: 7vw;
+    max-height: 7vw;
+    margin: auto 0;
+  }
+
+  .faq-block p {
+    font-size: 3vw;
+  }
+
+  .footer-blocks-top-h2 {
+    display: none;
+  }
+
+  .footer-blocks-top-contacts-phone {
+    margin: 5vw;
+  }
+
+  .footer-blocks-top-contacts-phone p {
+    font-size: 3vw;
+  }
+
+  .footer-blocks-bottom button {
+    font-size: 3vw;
+  }
+
+  .footer-copyright img {
+    min-width: 6vw;
+  }
+
+  .footer-copyright p {
+    font-size: 1.5vw;
+  }
+
+}
